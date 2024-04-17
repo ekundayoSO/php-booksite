@@ -2,7 +2,7 @@ const submitBtn = document.querySelector("input");
 
 
 const deleteAlert = () => {
-    alert("Are you sure?");
+    confirm("Are you sure you want to delete?");
 }
 
 submitBtn.addEventListener('click', deleteAlert);
